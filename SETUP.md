@@ -16,3 +16,4 @@ This project is a frontend built with Next.js (App Router), TailwindCSS, and Apo
 git clone <your-repo-url>
 cd <project-folder>
 npm install
+npm run dev
