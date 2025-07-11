@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@layer components {
+  .event-details-container {
+    @apply max-w-2xl mx-auto;
+  }
+
+  .event-header {
+    @apply mb-4;
+  }
+
+  .event-title {
+    @apply text-2xl font-bold uppercase;
+  }
+
+  .event-date {
+    @apply text-gray-600;
+  }
+
+  .event-section {
+    @apply mb-6;
+  }
+
+  .event-subsection-heading {
+    @apply uppercase text-gray-600 text-sm pb-2 border-b border-gray-200 w-full;
+  }
+
+  .event-empty-message {
+    @apply p-6 text-gray-500;
+  }
+}

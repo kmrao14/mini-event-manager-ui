@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@tailwind components;
+@layer components {
+  .page-header {
+    @apply bg-purple-600;
+  }
+
+  .header-container{
+    @apply flex justify-between items-center mb-6 max-w-2xl mx-auto text-white py-2;
+  }
+
+  .page-title {
+    @apply text-xl font-bold;
+  }
+
+  .page-action {
+    @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm;
+  }
+}

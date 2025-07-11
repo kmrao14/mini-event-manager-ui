@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer components {
+  .event-card {
+    @apply p-4 my-2 shadow-sm transition duration-200 hover:shadow-lg hover:scale-[1.01] bg-indigo-50;
+  }
+
+  .event-card-link {
+    @apply block space-y-1;
+  }
+
+  .event-title {
+    @apply text-xl font-semibold text-gray-900;
+  }
+
+  .event-date {
+    @apply text-sm text-gray-600;
+  }
+
+  .event-attendee-count {
+    @apply text-xs text-gray-500;
+  }
+}

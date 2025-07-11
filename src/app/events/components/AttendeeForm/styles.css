@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@layer components {
+  .attendee-form {
+    @apply space-y-3;
+  }
+
+  .attendee-form-group {
+    @apply space-y-1;
+  }
+
+  .attendee-label {
+    @apply block font-medium;
+  }
+
+  .attendee-input {
+    @apply border rounded p-2 w-full;
+  }
+
+  .attendee-error {
+    @apply text-sm text-red-500;
+  }
+
+  .attendee-submit {
+    @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 cursor-pointer;
+  }
+}
