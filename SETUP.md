@@ -23,5 +23,5 @@ npm run dev
 ## GraphQL Integration
 Create a .env.local file with:
 ```bash
-NEXT_PUBLIC_GRAPHQL_API_URL=http://localhost:4000/graphql
+NEXT_PUBLIC_GRAPHQL_ENDPOINT=http://localhost:4000/graphql
 ```
